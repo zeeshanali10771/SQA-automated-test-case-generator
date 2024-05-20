@@ -1,0 +1,82 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.file-upload-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropzone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px dashed #ddd;
+    cursor: pointer;
+    width: 500px;
+    /* adjust as needed */
+    height: 300px;
+    /* adjust as needed */
+}
+
+.dropzone:hover{
+    border-color: #000;
+}
+
+.hidden {
+    display: none;
+}
+
+.file-details {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.browse-btn {}
+
+.next-btn {
+    margin-top: 20px;
+    ;
+}
+
+.container {
+    textAlign: center;
+}
+
+.subheading {
+    color: #333;
+}
+
+.buttonRow {
+    margin-top: 20px;
+}
+
+.upload-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 10px;
+    margin: 0;
+    background-color: #2d2d2d;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    box-shadow: rgb(0 0 0 / 40%) 0 2px 4px, rgb(0 0 0 / 30%) 0 7px 13px -3px, rgb(0 0 0 / 20%) 0 -3px 0 inset;
+}
+
+
